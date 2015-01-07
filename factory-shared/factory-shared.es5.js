@@ -1,7 +1,7 @@
 var EventEmitter = require('events').EventEmitter;
 var _ = require('lodash');
  
-// Factory shared
+// ES5 Factory shared
 var makePerson = function() {
   var person = {};
   EventEmitter.call(person);
