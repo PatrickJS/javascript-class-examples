@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events');
  
-// Factory shared
+// ES6 Factory shared
 var makePerson = function() {
   let person = {};
   EventEmitter.call(person);
